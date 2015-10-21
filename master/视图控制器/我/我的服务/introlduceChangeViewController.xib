@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="introlduceChangeViewController">
+            <connections>
+                <outlet property="tx" destination="HmF-nr-khN" id="9ul-j6-cXX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HmF-nr-khN">
+                    <rect key="frame" x="8" y="25" width="320" height="422"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3r-tp-4DE">
+                    <rect key="frame" x="132" y="472" width="30" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8Uo-oA-TYB"/>
+                        <constraint firstAttribute="width" constant="100" id="SZg-HB-T90"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="confirm:" destination="-1" eventType="touchUpInside" id="XlT-pX-fWh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rI1-Fs-Enl">
+                    <rect key="frame" x="132" y="521" width="30" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8r7-St-ewC"/>
+                        <constraint firstAttribute="width" constant="100" id="fUi-QZ-Y3v"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cance:" destination="-1" eventType="touchUpInside" id="nBu-uM-Xjm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rI1-Fs-Enl" firstAttribute="top" secondItem="K3r-tp-4DE" secondAttribute="bottom" constant="19" id="5NN-Fz-vFf"/>
+                <constraint firstItem="rI1-Fs-Enl" firstAttribute="top" secondItem="K3r-tp-4DE" secondAttribute="bottom" constant="20" id="5SN-1a-iQF"/>
+                <constraint firstAttribute="centerX" secondItem="K3r-tp-4DE" secondAttribute="centerX" id="6Xz-bC-l13"/>
+                <constraint firstAttribute="trailing" secondItem="HmF-nr-khN" secondAttribute="trailing" constant="10" id="FXC-aX-zyg"/>
+                <constraint firstItem="rI1-Fs-Enl" firstAttribute="top" secondItem="K3r-tp-4DE" secondAttribute="bottom" constant="19" id="NF5-lF-rd2"/>
+                <constraint firstItem="HmF-nr-khN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="YID-Ix-siU"/>
+                <constraint firstAttribute="centerX" secondItem="rI1-Fs-Enl" secondAttribute="centerX" id="gNB-pE-94B"/>
+                <constraint firstAttribute="bottom" secondItem="rI1-Fs-Enl" secondAttribute="bottom" constant="17" id="qd3-fA-eSd"/>
+                <constraint firstItem="HmF-nr-khN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="rTl-qP-XF7"/>
+                <constraint firstItem="K3r-tp-4DE" firstAttribute="top" secondItem="HmF-nr-khN" secondAttribute="bottom" constant="30" id="xbj-yl-4bB"/>
+                <constraint firstItem="K3r-tp-4DE" firstAttribute="top" secondItem="HmF-nr-khN" secondAttribute="bottom" constant="30" id="yWL-Bz-HBz"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="5SN-1a-iQF"/>
+                    <exclude reference="NF5-lF-rd2"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

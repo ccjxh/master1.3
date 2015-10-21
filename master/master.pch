@@ -1,0 +1,41 @@
+//
+//  master.pch
+//  master
+//
+//  Created by jin on 15/5/5.
+//  Copyright (c) 2015年 JXH. All rights reserved.
+//
+
+#ifndef master_master_pch
+#define master_master_pch
+#endif
+#define changeURL @"http://61.144.195.209:8180"//测试环境
+//#define changeURL @"http://192.168.0.111:8080"
+//#define changeURL @"http://172.16.140.166:8080"
+//#define changeURL @"http://61.144.195.209:8088"//真实环境
+//#define changeURL @"http://192.168.0.111:8080"
+#define timeout 10    //网络请求时间设置
+#define pushKey @"f8909ce9"
+#define SHAREAPPKEY @"pkgname=com.zhuobao.master"
+#define skillColor [UIColor colorWithRed:242/255.0f green:197/255.0f blue:43/255.0f alpha:1]
+#define TABLE_COLRO [UIColor colorWithRed:238/255.0f green:238/255.0f blue:238/255.0f alpha:1.0]
+#define NAV_COLOR [UIColor colorWithRed:85/255.0 green:159/255.0 blue:224/255.0 alpha:1.0]
+#import "HeaderFile.h"
+#import "FMDB.h"
+#import "AFNetworking.h"
+#import "CocoaSecurity.h"
+#import "KeyboardManager.h"
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "AFNetworking.h"
+#import "httpManager.h"
+#import "NSObject+URL.h"
+#import "NSObject+animation.h"
+#import "Toast+UIView.h"
+#import "AreaModel.h"
+#import "dataBase.h"
+#import "Header.h"
+#import "AppDelegate.h"
+#import "RootViewController.h"
+#import "UIImageView+WebCache.h"

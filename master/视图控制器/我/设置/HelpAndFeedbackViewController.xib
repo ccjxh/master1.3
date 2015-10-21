@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HelpAndFeedbackViewController">
+            <connections>
+                <outlet property="commitTextView" destination="pBc-AR-j3f" id="aTi-Rf-9uy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请输入反馈内容，我们将会做的更好！" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ne-mJ-9DX">
+                    <rect key="frame" x="8" y="135" width="272" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vco-fo-zjZ">
+                    <rect key="frame" x="0.0" y="78" width="320" height="48"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBc-AR-j3f">
+                            <rect key="frame" x="8" y="8" width="304" height="40"/>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="IwM-Zr-oO4"/>
+                                <constraint firstAttribute="width" constant="304" id="h7I-4i-mY7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="pBc-AR-j3f" firstAttribute="leading" secondItem="vco-fo-zjZ" secondAttribute="leading" constant="8" id="0of-Xn-7Zi"/>
+                        <constraint firstAttribute="width" constant="320" id="4n2-ur-hhF"/>
+                        <constraint firstAttribute="height" constant="48" id="U5A-qM-vJF"/>
+                        <constraint firstAttribute="trailing" secondItem="pBc-AR-j3f" secondAttribute="trailing" constant="8" id="kuD-0D-wyI"/>
+                        <constraint firstItem="pBc-AR-j3f" firstAttribute="top" secondItem="vco-fo-zjZ" secondAttribute="top" constant="8" id="nO5-mp-8qO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.9281881313" green="0.9281881313" blue="0.9281881313" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vco-fo-zjZ" secondAttribute="trailing" id="7li-3m-bvY"/>
+                <constraint firstItem="vco-fo-zjZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VCp-xe-ZXv"/>
+                <constraint firstItem="vco-fo-zjZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="78" id="b52-0F-frh"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="251" y="259"/>
+        </view>
+    </objects>
+</document>

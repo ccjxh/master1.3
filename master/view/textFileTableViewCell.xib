@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="textFileTableViewCell" rowHeight="103" id="KGk-i7-Jjw" customClass="textFileTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbI-3U-EMr">
+                        <rect key="frame" x="11" y="13" width="60" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="1Hk-xP-J4w"/>
+                            <constraint firstAttribute="width" constant="60" id="rce-5T-z9M"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z77-Gf-JYe">
+                        <rect key="frame" x="101" y="13" width="208" height="67"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="67" id="Jrb-CN-eGf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="z77-Gf-JYe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="7i0-mz-ScM"/>
+                    <constraint firstItem="RbI-3U-EMr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="OSp-mC-hJv"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="z77-Gf-JYe" secondAttribute="trailing" constant="3" id="Rym-ot-aaD"/>
+                    <constraint firstItem="RbI-3U-EMr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="3" id="ewP-CZ-JkD"/>
+                    <constraint firstItem="z77-Gf-JYe" firstAttribute="leading" secondItem="RbI-3U-EMr" secondAttribute="trailing" constant="30" id="ltJ-2z-3Mg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="height" destination="Jrb-CN-eGf" id="wbo-jp-SC5"/>
+                <outlet property="name" destination="RbI-3U-EMr" id="U5y-Z0-b66"/>
+                <outlet property="tx" destination="z77-Gf-JYe" id="MFH-BP-oCD"/>
+            </connections>
+            <point key="canvasLocation" x="277" y="194.5"/>
+        </tableViewCell>
+    </objects>
+</document>

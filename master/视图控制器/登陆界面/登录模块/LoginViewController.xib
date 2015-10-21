@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="backView" destination="dSc-qs-n9I" id="03G-aj-xVm"/>
+                <outlet property="forget" destination="rr6-v7-NtB" id="Pli-ip-Pp7"/>
+                <outlet property="icon" destination="hu9-4e-bpv" id="h6d-Sp-S95"/>
+                <outlet property="lineView" destination="os4-qr-wwH" id="GjT-kw-ezU"/>
+                <outlet property="loginButton" destination="O0x-2v-VSQ" id="81k-s5-DeE"/>
+                <outlet property="resignButton" destination="dku-VU-FvQ" id="7NN-pc-Hzp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="ns5-aq-kBy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSc-qs-n9I">
+                    <rect key="frame" x="40" y="207" width="240" height="80"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="os4-qr-wwH">
+                            <rect key="frame" x="0.0" y="39.5" width="240" height="1"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="240" id="Qte-gl-cbk"/>
+                                <constraint firstAttribute="height" constant="1" id="icM-yy-b2C"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" notEnabled="YES"/>
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="20i-NH-Fpd"/>
+                        <constraint firstAttribute="height" constant="80" id="8Ng-cV-MYS"/>
+                        <constraint firstItem="os4-qr-wwH" firstAttribute="leading" secondItem="dSc-qs-n9I" secondAttribute="leading" id="ERe-G2-2p3"/>
+                        <constraint firstItem="os4-qr-wwH" firstAttribute="centerY" secondItem="dSc-qs-n9I" secondAttribute="centerY" id="fbB-Ly-5p5"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="hu9-4e-bpv">
+                    <rect key="frame" x="130" y="50" width="60" height="60"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="GLC-7M-tuG"/>
+                        <constraint firstAttribute="height" constant="60" id="fb9-GJ-But"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rr6-v7-NtB">
+                    <rect key="frame" x="223" y="363" width="77" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="77" id="M1p-d3-G21"/>
+                        <constraint firstAttribute="height" constant="30" id="xbt-b9-Dyf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="忘记密码?">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="forget:" destination="-1" eventType="touchUpInside" id="lFj-DZ-Ouk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dku-VU-FvQ">
+                    <rect key="frame" x="20" y="363" width="120" height="35"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="fOb-ae-NHJ"/>
+                        <constraint firstAttribute="height" constant="35" id="gRj-Kn-C8b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="手机快速注册">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="resign:" destination="-1" eventType="touchUpInside" id="pm8-HA-4iX"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="找防水师傅                  就上宝师傅.png" translatesAutoresizingMaskIntoConstraints="NO" id="rc9-aU-zdj">
+                    <rect key="frame" x="90" y="134" width="140" height="41"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="KYQ-8q-UKI"/>
+                        <constraint firstAttribute="height" constant="41" id="qM9-uv-iQ7"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0x-2v-VSQ">
+                    <rect key="frame" x="40" y="307" width="240" height="37"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="TS9-rt-yV2"/>
+                        <constraint firstAttribute="height" constant="37" id="txH-Xt-uCy"/>
+                    </constraints>
+                    <state key="normal" title="登陆">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sendLogin:" destination="-1" eventType="touchUpInside" id="CzX-31-o9t"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstItem="hu9-4e-bpv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4eT-5V-u3M"/>
+                <constraint firstAttribute="trailing" secondItem="rr6-v7-NtB" secondAttribute="trailing" constant="20" id="6AV-wQ-Ukm"/>
+                <constraint firstItem="dSc-qs-n9I" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8hP-j9-KMs"/>
+                <constraint firstItem="O0x-2v-VSQ" firstAttribute="top" secondItem="dSc-qs-n9I" secondAttribute="bottom" constant="20" id="8td-tg-7ao"/>
+                <constraint firstItem="dku-VU-FvQ" firstAttribute="top" secondItem="O0x-2v-VSQ" secondAttribute="bottom" constant="19" id="MWr-Je-C0j"/>
+                <constraint firstItem="O0x-2v-VSQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bre-IY-lgq"/>
+                <constraint firstItem="dSc-qs-n9I" firstAttribute="top" secondItem="rc9-aU-zdj" secondAttribute="bottom" constant="32" id="cAT-2T-nMg"/>
+                <constraint firstItem="hu9-4e-bpv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="dXx-H5-Swh"/>
+                <constraint firstItem="rc9-aU-zdj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hC7-7u-G3J"/>
+                <constraint firstItem="rr6-v7-NtB" firstAttribute="top" secondItem="O0x-2v-VSQ" secondAttribute="bottom" constant="19" id="pLZ-uR-A4V"/>
+                <constraint firstItem="rc9-aU-zdj" firstAttribute="top" secondItem="hu9-4e-bpv" secondAttribute="bottom" constant="24" id="vjo-70-ZrO"/>
+                <constraint firstItem="dku-VU-FvQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="wwm-t0-jzV"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="264" y="235"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon.png" width="57" height="57"/>
+        <image name="找防水师傅                  就上宝师傅.png" width="140" height="41"/>
+    </resources>
+</document>

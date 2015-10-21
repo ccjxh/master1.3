@@ -1,0 +1,105 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AnimatedGIFImageSerialization (0.2.0)
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - CocoaSecurity (1.2.4)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - IQKeyboardManager (3.2.4)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (1.4.7)
+  - PDTSimpleCalendar (0.8.0)
+  - pop (1.0.7)
+  - Reachability (3.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage-Category (1.4):
+    - SDWebImage
+  - SDWebImage-ProgressView (0.4.0):
+    - SDWebImage (~> 3.7.0)
+  - SDWebImage/Core (3.7.3)
+  - SVPullToRefresh (0.4.1)
+  - UIToast (0.0.2)
+  - UzysAnimatedGifPullToRefresh (0.9.7):
+    - AnimatedGIFImageSerialization (~> 0.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.4)
+  - ASIHTTPRequest (~> 1.8.2)
+  - CocoaSecurity (~> 1.2.4)
+  - FMDB (~> 2.5)
+  - IQKeyboardManager (~> 3.2.3)
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh (~> 1.4.5)
+  - PDTSimpleCalendar (~> 0.8.0)
+  - pop (~> 1.0)
+  - SDWebImage-Category (~> 1.4)
+  - SDWebImage-ProgressView (~> 0.4.0)
+  - SVPullToRefresh (~> 0.4.1)
+  - UIToast (~> 0.0.1)
+  - UzysAnimatedGifPullToRefresh (from `https://github.com/uzysjung/UzysAnimatedGifPullToRefresh.git`)
+
+EXTERNAL SOURCES:
+  UzysAnimatedGifPullToRefresh:
+    :git: https://github.com/uzysjung/UzysAnimatedGifPullToRefresh.git
+
+CHECKOUT OPTIONS:
+  UzysAnimatedGifPullToRefresh:
+    :commit: 625e6d0134c8fbf6eebe6b345f4d25cee6e4e261
+    :git: https://github.com/uzysjung/UzysAnimatedGifPullToRefresh.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AnimatedGIFImageSerialization: b0f0cfe71eac1ee45a3d57ae533c23b8e6f29501
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  IQKeyboardManager: 555b1231fefafb21b19278d7cca72986a27b748b
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  PDTSimpleCalendar: 165e96cd8b808c98b3204effa4f4d519a3b71580
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SDWebImage-Category: 1f1c00880a538f7faf5b726e1559cf1ca555c553
+  SDWebImage-ProgressView: cdc29091ec0d53fd6dab3df65039a4f308e0a5ae
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  UIToast: 1fa08a3d167d2d2a66083c78adb1cad22b260ba9
+  UzysAnimatedGifPullToRefresh: b964f66df2905a0b25e77498c148d51aaf30e620
+
+COCOAPODS: 0.35.0

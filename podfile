@@ -1,0 +1,24 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '7.0'
+ pod 'SVPullToRefresh', '~> 0.4.1'
+ pod 'FMDB', '~> 2.5'
+ pod 'UzysAnimatedGifPullToRefresh', :git => 'https://github.com/uzysjung/UzysAnimatedGifPullToRefresh.git'
+ pod 'PDTSimpleCalendar', '~> 0.8.0'
+ pod 'AFNetworking', '~> 2.5.4'
+ pod 'MBProgressHUD', '~> 0.9.1'
+ pod 'MJRefresh', '~> 1.4.5'
+ pod 'UIToast', '~> 0.0.1'
+ pod 'SDWebImage-ProgressView', '~> 0.4.0'
+ pod 'SDWebImage-Category', '~> 1.4'
+ pod 'CocoaSecurity', '~> 1.2.4'
+ pod 'IQKeyboardManager', '~> 3.2.3'
+ pod 'pop', '~> 1.0'
+pod 'ASIHTTPRequest', '~> 1.8.2'
+target 'master' do
+
+end
+
+target 'masterTests' do
+
+end
+

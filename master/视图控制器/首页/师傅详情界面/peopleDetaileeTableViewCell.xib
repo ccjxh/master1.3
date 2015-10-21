@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="peopleDetaileeTableViewCell" rowHeight="115" id="KGk-i7-Jjw" customClass="peopleDetaileeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="114.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="电话:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhu-oS-o1X">
+                        <rect key="frame" x="15" y="6" width="42" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="社交:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZk-tx-IMV">
+                        <rect key="frame" x="15" y="34" width="42" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="日程:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27L-vV-e2j">
+                        <rect key="frame" x="15" y="61" width="42" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="籍贯:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24S-Ws-nst">
+                        <rect key="frame" x="15" y="86" width="42" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电话:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YQ-4H-eeJ">
+                        <rect key="frame" x="65" y="61" width="232" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="232" id="AIm-eb-Qfv"/>
+                            <constraint firstAttribute="height" constant="21" id="KhW-vX-Ut7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_qq.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Jg-a3-hQy">
+                        <rect key="frame" x="240" y="34" width="22" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="hjY-ev-igG"/>
+                            <constraint firstAttribute="width" constant="22" id="j4O-ai-myE"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_wechat.png" translatesAutoresizingMaskIntoConstraints="NO" id="qiJ-wc-bLb">
+                        <rect key="frame" x="275" y="34" width="22" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="0p0-s1-tge"/>
+                            <constraint firstAttribute="width" constant="22" id="iYr-48-H9R"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4i7-D6-33t">
+                        <rect key="frame" x="65" y="8" width="232" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="ZLd-8r-URS"/>
+                            <constraint firstAttribute="width" constant="232" id="ZP2-kU-6hr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.71239741160000003" green="0.71239741160000003" blue="0.71239741160000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="callMobile:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="eQi-Wd-LGs"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xq3-dJ-PLd">
+                        <rect key="frame" x="65" y="86" width="232" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="232" id="Qwh-YY-yf2"/>
+                            <constraint firstAttribute="height" constant="21" id="U8x-ex-kFG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="xq3-dJ-PLd" firstAttribute="top" secondItem="9YQ-4H-eeJ" secondAttribute="bottom" constant="4" id="4p2-XY-6JS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="9YQ-4H-eeJ" secondAttribute="trailing" constant="15" id="Dp1-pe-7Ru"/>
+                    <constraint firstItem="4i7-D6-33t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="GIy-80-kvg"/>
+                    <constraint firstItem="0Jg-a3-hQy" firstAttribute="top" secondItem="4i7-D6-33t" secondAttribute="bottom" constant="5" id="IAQ-vg-8Xf"/>
+                    <constraint firstItem="qiJ-wc-bLb" firstAttribute="top" secondItem="4i7-D6-33t" secondAttribute="bottom" constant="5" id="VdF-iU-FZB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qiJ-wc-bLb" secondAttribute="trailing" constant="15" id="d8Y-zF-P3p"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xq3-dJ-PLd" secondAttribute="trailing" constant="15" id="ecd-9I-GON"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4i7-D6-33t" secondAttribute="trailing" constant="15" id="lLu-tk-6Fu"/>
+                    <constraint firstItem="qiJ-wc-bLb" firstAttribute="leading" secondItem="0Jg-a3-hQy" secondAttribute="trailing" constant="13" id="q6w-9D-UMU"/>
+                    <constraint firstItem="9YQ-4H-eeJ" firstAttribute="top" secondItem="qiJ-wc-bLb" secondAttribute="bottom" constant="6" id="ss8-Sk-gqD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="master_mobile" destination="4i7-D6-33t" id="sqL-V7-O13"/>
+                <outlet property="master_region" destination="xq3-dJ-PLd" id="8ZE-Ex-8Nn"/>
+                <outlet property="master_workStatus" destination="9YQ-4H-eeJ" id="6QC-Y5-9Wu"/>
+            </connections>
+            <point key="canvasLocation" x="238" y="247.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_qq.png" width="40" height="40"/>
+        <image name="ic_wechat.png" width="40" height="40"/>
+    </resources>
+</document>

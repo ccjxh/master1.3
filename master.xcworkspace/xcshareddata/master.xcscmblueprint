@@ -1,0 +1,49 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3E2EE0438BDA0DEA40B39A6D22D46F31E4DD1F11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c1b34985-89f7-4ad2-b6ed-32456ccb691a++2406" : {
+
+    },
+    "c1b34985-89f7-4ad2-b6ed-32456ccb691a++8605" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3E2EE0438BDA0DEA40B39A6D22D46F31E4DD1F11" : 0,
+    "c1b34985-89f7-4ad2-b6ed-32456ccb691a++8605" : 0,
+    "2BDBC9017752F3B032A7CEF16283A8DC753AB7A9" : 0,
+    "c1b34985-89f7-4ad2-b6ed-32456ccb691a++2406" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3FA2E7DD-BFAD-42E7-9362-092F9126B867",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3E2EE0438BDA0DEA40B39A6D22D46F31E4DD1F11" : "master1.2\/",
+    "c1b34985-89f7-4ad2-b6ed-32456ccb691a++8605" : "master1.2\/master%205\/master\/%E7%AC%AC%E4%B8%89%E6%96%B9\/ZYChat\/ZYChat\/ZYChat\/Dependcy\/GJCUCapture\/",
+    "2BDBC9017752F3B032A7CEF16283A8DC753AB7A9" : "baoself1.0",
+    "c1b34985-89f7-4ad2-b6ed-32456ccb691a++2406" : "master1.2\/master%205\/master\/%E7%AC%AC%E4%B8%89%E6%96%B9\/ZYChat\/ZYChat\/ZYChat\/Dependcy\/GJCFAssetsPicker\/GJCFAssetsPickerResourceBundle.bundle\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "master",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "master 5\/master.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ccjxh\/baoself1.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2BDBC9017752F3B032A7CEF16283A8DC753AB7A9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ccjxh\/master1.2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E2EE0438BDA0DEA40B39A6D22D46F31E4DD1F11"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.64.5:8888\/svn\/Mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c1b34985-89f7-4ad2-b6ed-32456ccb691a++2406"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.64.5:8888\/svn\/Mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c1b34985-89f7-4ad2-b6ed-32456ccb691a++8605"
+    }
+  ]
+}

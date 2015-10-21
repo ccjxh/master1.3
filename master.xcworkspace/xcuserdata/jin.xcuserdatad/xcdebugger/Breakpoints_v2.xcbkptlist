@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "objc_exception_throw"
+            moduleName = "">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_exception_throw"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-SKperformSelector:withObject:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-SKperformSelector:withObject:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-SKperformSelector:withObject:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "-SKperformSelector:withObject:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "-isSelectorReturnType:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-isSelectorReturnType:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "-isSelectorReturnType:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "-isSelectorReturnType:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-SKperformSelector:withObject:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-SKperformSelector:withObject:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466929324.664515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "-isSelectorReturnType:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928675.311047"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928893.445029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSObject(SafeKit_Perform) SKperformSelector:withObject:]"
+                  moduleName = "master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jin/Desktop/master1.2/master%205/master/%E7%AC%AC%E4%B8%89%E6%96%B9/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%AE%8C%E6%95%B4%E6%A1%86%E6%9E%B6/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+                  timestampString = "466929326.151333"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSObject(SafeKit_Perform) SKperformSelector:withObject:]"
+                  moduleName = "master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jin/Desktop/master1.2/master%205/master/%E7%AC%AC%E4%B8%89%E6%96%B9/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%AE%8C%E6%95%B4%E6%A1%86%E6%9E%B6/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+                  timestampString = "466929326.152248"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSObject(SafeKit_Perform) SKperformSelector:withObject:]"
+                  moduleName = "master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jin/Desktop/master1.2/master%205/master/%E7%AC%AC%E4%B8%89%E6%96%B9/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%AE%8C%E6%95%B4%E6%A1%86%E6%9E%B6/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+                  timestampString = "466929326.152951"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSObject(SafeKit_Perform) SKperformSelector:withObject:]"
+                  moduleName = "master"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jin/Desktop/master1.2/master%205/master/%E7%AC%AC%E4%B8%89%E6%96%B9/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%AE%8C%E6%95%B4%E6%A1%86%E6%9E%B6/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+                  timestampString = "466929326.153619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928895.945028"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928896.585159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928897.187319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928898.135199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928898.721214"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928899.955252"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928905.279431"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928905.857557"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928906.80755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "master/&#x7b2c;&#x4e09;&#x65b9;/&#x7b2c;&#x4e09;&#x65b9;&#x5b8c;&#x6574;&#x6846;&#x67b6;/illes/DurexKit-master/DurexKit/Foundation/NSObject+SafeKit.m"
+            timestampString = "466928908.913621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "-SKperformSelector:withObject:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
